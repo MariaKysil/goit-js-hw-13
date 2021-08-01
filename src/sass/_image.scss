@@ -1,0 +1,31 @@
+.image-card {
+  display: flex;
+
+  flex-basis: calc(100% / 4 - 20px);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.image-link {
+  display: flex;
+  flex-direction: column;
+
+  color: #000;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  padding: 10px 0;
+  border: 1px solid #cfcbcb;
+  border-top: none;
+}
+
+.info-item {
+  text-align: center;
+}
